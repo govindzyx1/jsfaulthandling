@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="1199-jsfault-rev1-2015-09-191-rev1-2015-09-19-1">
+    <Basepaths>/jsfault</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1563350012602</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>jsFault</DisplayName>
+    <LastModifiedAt>1563350012602</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:1974618411778d9907dc63a6878c957bb888959a3c157f8937746a472a4e9e059ae943766c7ae1234277eda434488aaab0dec1834a22d71cfc87d8b9d05d58ed</ManifestVersion>
+    <Policies>
+        <Policy>JavaScript-1</Policy>
+        <Policy>Raise-Fault-1</Policy>
+        <Policy>fault_paramlength</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
